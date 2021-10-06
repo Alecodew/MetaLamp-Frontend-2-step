@@ -17,12 +17,15 @@ plugins: [
 
 module: {
     rules: [
-      { test: /\.pug$/, use: ['pug-loader',]},
-      {test: /\.s[ac]ss$/, use: [ 'style-loader', 'css-loader', 'sass-loader' ]},
-      
+      {test: /\.pug$/i, use: ['pug-loader',]},
+      {test: /\.s[ac]ss$/i, use: [ 'style-loader', 'css-loader','sass-loader' ]},
+      {test: /\.(woff(2)?|eot|ttf|otf|svg)$/,type: 'asset/resource',
+				generator: {
+					filename: 'fonts/[name][ext]',}
+      },
     ]
   },
-   
-};
 
+
+};
 
