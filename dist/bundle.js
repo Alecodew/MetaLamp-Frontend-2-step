@@ -136,7 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.sass */ \"./src/sass/style.sass\");\n \r\n\r\n\r\n\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_style_sass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./sass/style.sass */ \"./src/sass/style.sass\");\n/* harmony import */ var _img_classification_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/classification.jpg */ \"./src/img/classification.jpg\");\n \r\n\r\n\r\n\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/app.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sas
   \*********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"fonts/Montserrat.svg\";\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/fonts/Montserrat/Montserrat.svg?");
+eval("module.exports = __webpack_require__.p + \"svg/Montserrat.svg\";\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/fonts/Montserrat/Montserrat.svg?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"fonts/Montserrat.woff\";\n\n//#
   \*******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"fonts/montserrat_bold.svg\";\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/fonts/Montserrat_bold/montserrat_bold.svg?");
+eval("module.exports = __webpack_require__.p + \"svg/montserrat_bold.svg\";\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/fonts/Montserrat_bold/montserrat_bold.svg?");
 
 /***/ }),
 
@@ -197,6 +197,16 @@ eval("module.exports = __webpack_require__.p + \"fonts/montserrat_bold.ttf\";\n\
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"fonts/montserrat_bold.woff\";\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/fonts/Montserrat_bold/montserrat_bold.woff?");
+
+/***/ }),
+
+/***/ "./src/img/classification.jpg":
+/*!************************************!*\
+  !*** ./src/img/classification.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"img/classification.jpg\";\n\n//# sourceURL=webpack://MetaLamp-Frontend-2-step/./src/img/classification.jpg?");
 
 /***/ })
 

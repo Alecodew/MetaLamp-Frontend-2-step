@@ -19,10 +19,25 @@ module: {
     rules: [
       {test: /\.pug$/i, use: ['pug-loader',]},
       {test: /\.s[ac]ss$/i, use: [ 'style-loader', 'css-loader','sass-loader' ]},
-      {test: /\.(woff(2)?|eot|ttf|otf|svg)$/,type: 'asset/resource',
+      {
+       test: /\.(woff(2)?|eot|ttf|otf)$/,
+       type: 'asset/resource',
 				generator: {
-					filename: 'fonts/[name][ext]',}
+					filename: 'fonts/[name][ext]'}
       },
+      {
+       test: /\.(png|jpg|jpeg|gif)$/i, 
+       type: 'asset/resource',
+        generator: {
+					filename: 'img/[name][ext]'}
+      },
+      {
+				test: /\.svg$/,
+				type: 'asset/resource',
+				generator: {
+					filename: 'svg/[name][ext]',
+				},
+			},
     ]
   },
 
