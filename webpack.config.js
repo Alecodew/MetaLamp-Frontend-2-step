@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+
 module.exports = {
   mode: "development",
   entry: "./src/app.js",
@@ -11,7 +12,7 @@ module.exports = {
 
 plugins: [
     new HtmlWebpackPlugin({
-      template: './src/pug/pages/index.pug'
+      template: './src/pug/index.pug'
     }),
     ],
 
@@ -26,7 +27,7 @@ module: {
 					filename: 'fonts/[name][ext]'}
       },
       {
-       test: /\.(png|jpg|jpeg|gif)$/i, 
+       test: /\.(png|jpg|jpeg|gif|svg)$/i, 
        type: 'asset/resource',
         generator: {
 					filename: 'img/[name][ext]'}

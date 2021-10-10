@@ -4,6 +4,7 @@
   "description": "",
   "private": false,
   "dependencies": {
+    "copy-webpack-plugin": "^9.0.1",
     "normalize.css": "^8.0.1",
     "sass-resources-loader": "^2.2.4"
   },

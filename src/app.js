@@ -1,3 +1,4 @@
 import "./sass/style.sass"; 
-import './img/classification.jpg';
+import '../src/img/icons/Group.svg';
+
 
